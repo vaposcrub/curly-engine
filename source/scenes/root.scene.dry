@@ -1,11 +1,9 @@
-title: Root Scene
+title: Welcome to the island
 new-page: true
 
-This is the root scene of "Dendry-starter-pack". The root scene is normally used
-as a hub: the choices allow you to go to different sections of your
-story. In shorter works it may just function as the first scene in the
-game, sending the player off into the tree of choices. If the root
-scene doesn't have any choices that it can display, the game is over.
+A secret island with rocky cliffs, sandy beaches, and clear blue water. 
+Old wooden houses line the shore, with colorful flags waving. Pirates and
+treasure hunters gather here for excitement and stories of hidden treasure.
 
-# Scenes with a top tag can be displayed here.
-- #top
+# choices
+- @harbour_master_hut: Visit the Harbour Master's Hut
