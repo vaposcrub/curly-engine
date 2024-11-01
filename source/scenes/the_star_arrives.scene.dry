@@ -1,0 +1,8 @@
+title: The Star Arrives
+subtitle: A new visitor has made quite the entrance!
+new-page: true
+tags: top, first
+on-arrival: first = false
+max-visits: 1
+
+text
