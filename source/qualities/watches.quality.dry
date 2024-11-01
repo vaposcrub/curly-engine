@@ -1,5 +1,5 @@
 name: watch
-initial: "night"
+initial: 6
 
 {!
 if q.watch => 7 {
