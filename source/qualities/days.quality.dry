@@ -1,9 +1,2 @@
 name: days
 initial: 0
-
-{!
-if days = 7 {
-    days = 0
-    weeks = 1
-}
-!}
