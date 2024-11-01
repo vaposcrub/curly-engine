@@ -1,0 +1,9 @@
+name: days
+initial: 0
+
+{!
+if q.days => 7 {
+    q.days = 0
+    q.weeks += 1
+}
+!}

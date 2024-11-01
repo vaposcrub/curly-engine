@@ -1,0 +1,9 @@
+name: watch
+initial: "night"
+
+{!
+if q.watch => 7 {
+    q.watch = 1
+    q.days += 1
+}
+!}
