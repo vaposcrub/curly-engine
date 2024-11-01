@@ -3,8 +3,6 @@ new-page: true
 max-choices: 4
 
 # choices
-view-if: first = true
 - @the_star_arrives: There appears to have been some kind of explosion. Oh dear?
 
-view-if: first = false
 - #top
