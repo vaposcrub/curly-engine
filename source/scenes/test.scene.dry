@@ -1,4 +1,4 @@
 title: test
 tags: top
 
-There is text here.
+It is {! watchName(Q.watch)}
