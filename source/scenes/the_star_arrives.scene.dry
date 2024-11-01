@@ -1,6 +1,6 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: watch += 1
+on-arrival: days += 1
 new-page: true
 tags: top
 
