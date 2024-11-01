@@ -4,7 +4,7 @@ max-choices: 4
 
 You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
 
-It is [+ watch : qwatch +].
+It is [+ 6 : qwatch +].
 
 # choices
 - @the_star_arrives: There appears to have been some kind of explosion. Oh dear...?
