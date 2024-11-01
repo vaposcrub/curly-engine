@@ -1,5 +1,5 @@
 name: days
-initial: 0
+initial: 3
 
 {!
 if q.days => 7 {
