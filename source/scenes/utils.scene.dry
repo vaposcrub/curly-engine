@@ -1,6 +1,5 @@
 title: Utils scene
 new-page: false
-go-to: Hub
 on-arrival: {!
 if (Q.watch > 6) {
     Q.days += 1;
