@@ -1,6 +1,5 @@
 title: Utils scene
 new-page: false
-go-to: prevScene
 on-arrival: {!
 if (Q.watch > 6) {
     Q.days += 1;
@@ -15,3 +14,5 @@ if (Q.days > 6) {
     Q.days -= 7;
 }
 !}
+
+text here
