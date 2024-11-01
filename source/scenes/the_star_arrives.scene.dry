@@ -4,6 +4,8 @@ on-arrival: {!
 Q.days += 1;
 if (Q.days > 6) {
     Q.weeks += 1;
+}
+if (Q.days > 6) {
     Q.days -= 7;
 }
 !}
