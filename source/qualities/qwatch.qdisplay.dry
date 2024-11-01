@@ -1,4 +1,4 @@
 
-(1-2) the morning
-(3-4) the afternoon
-(5-6) night
+(1..2) the morning
+(3..4) the afternoon
+(5..6) night

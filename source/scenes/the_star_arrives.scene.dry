@@ -3,7 +3,6 @@ subtitle: A new visitor has made quite the entrance!
 on-arrival: {!
 Q.days += 1;
 if (Q.days > 6) {
-    Q.days = 0;
     Q.weeks += 1;
 }
 !}
