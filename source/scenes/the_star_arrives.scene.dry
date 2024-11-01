@@ -1,16 +1,12 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: days += 1, [{!
-if q.watch = 7 {
-    q.watch = 1
-    q.days += 1
+on-arrival: days += 1, {!
+if (Q['days'] = 7) {
+    Q['days] = 0;
+    Q['weeks] += 1;
 }
-!}], [{!
-if q.days = 7 {
-    q.days = 0
-    q.weeks += 1
-}
-!}]
+!}
+
 new-page: true
 tags: top
 
