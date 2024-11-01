@@ -2,8 +2,8 @@ name: watch
 initial: 6
 
 {!
-if q.watch => 7 {
-    q.watch = 1
-    q.days += 1
+if watch = 7 {
+    watch = 1
+    days += 1
 }
 !}
