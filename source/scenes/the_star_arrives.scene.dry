@@ -1,7 +1,7 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
 on-arrival: {!
-Q['days'] += 1;
+q.days += 1;
 !}
 new-page: true
 tags: top
