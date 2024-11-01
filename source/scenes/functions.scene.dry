@@ -4,7 +4,7 @@ on-arrival: {!
         Q.days += 1;
     }
 
-    if watch > 6 {
+    if Q.watch > 6 {
         Q.watch = 0
     }
 
@@ -18,10 +18,10 @@ on-arrival: {!
     if Q.watch = 1 or 2  {
         Q.watch = "the morning"
     }
-    if watch = 3 or 4 {
+    if Q.watch = 3 or 4 {
         Q.watch = "the afternoon"
     }
-    if watch = 5 or 6 {
+    if Q.watch = 5 or 6 {
         Q.watch = "night"
     }
 !}
