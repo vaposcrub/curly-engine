@@ -1,0 +1,27 @@
+title: Functions
+on-arrival: {!
+    if Q.watch > 6 {
+        Q.days += 1;
+    }
+
+    if watch > 6 {
+        Q.watch = 0
+    }
+
+    if Q.days > 6 {
+        Q.weeks += 1;
+    }
+    if days > 6 {
+        Q.days = 0;
+    }
+
+    if Q.watch = 1 or 2  {
+        Q.watch = "the morning"
+    }
+    if watch = 3 or 4 {
+        Q.watch = "the afternoon"
+    }
+    if watch = 5 or 6 {
+        Q.watch = "night"
+    }
+!}
