@@ -1,4 +1,4 @@
 title: test
 tags: top
 
-It is {! watchName(Q.watch)}
+It is {! watchName(Q.watch) !}
