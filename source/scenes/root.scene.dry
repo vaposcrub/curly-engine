@@ -3,6 +3,6 @@ new-page: true
 max-choices: 4
 
 # choices
-- @the_star_arrives: There appears to have been some kind of explosion. Oh dear?
+- @the_star_arrives: There appears to have been some kind of explosion. Oh dear...?
 
 - #top
