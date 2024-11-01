@@ -1,15 +1,8 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: watch = 5; {!
-Q.days += 1;
-if (Q.days > 6) {
-    Q.weeks += 1;
-}
-if (Q.days > 6) {
-    Q.days -= 7;
-}
-!}
+on-arrival: days += 1
 new-page: true
 tags: top
+go-to: utils
 
 You are in the observatory floor of your wizard's tower, charting astronomical movements as instructed.
