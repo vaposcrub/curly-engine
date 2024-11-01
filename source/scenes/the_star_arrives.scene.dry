@@ -1,10 +1,7 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: days += 1, {!
-if (Q['days'] = 7) {
-    Q['days'] = 0;
-    Q['weeks'] += 1;
-}
+on-arrival: {!
+Q['days'] += 1;
 !}
 new-page: true
 tags: top
