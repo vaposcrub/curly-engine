@@ -14,5 +14,3 @@ if (Q.days > 6) {
     Q.days -= 7;
 }
 !}
-
-text here
