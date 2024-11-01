@@ -3,9 +3,8 @@ on-arrival: {!
     if Q.watch > 6 {
         Q.days += 1;
     }
-
     if Q.watch > 6 {
-        Q.watch = 0
+        Q.watch = 0;
     }
 
     if Q.days > 6 {
