@@ -2,4 +2,8 @@ title: Hub
 new-page: true
 max-choices: 4
 
+You have known the start for [+ weeks +] week(s) and [+ days +] day(s).
+
+It is [? if watch = 1 or 2 : the morning. ?][? if watch = 3 or 4 : the afternoon. ?][? if watch = 5 or 6 : nighttime. ?]
+
 - #top
