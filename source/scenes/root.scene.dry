@@ -1,6 +1,7 @@
 title: Hub
 new-page: true
 max-choices: 4
+go-to: @the_star_arrives if start = 0
 
 # text is showing but the variable is displaying 0, not matching the text in test. weeks js still not working
 You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
@@ -8,7 +9,3 @@ You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
 It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?]
 
 - #start
-- #week0
-- #week1
-- #week2
-- #endgame
