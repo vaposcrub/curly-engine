@@ -17,17 +17,48 @@ It's a good night for it—clear and balmy.
 new-page: false
 on-arrival: interested += 1
 subtitle: Nights like this are so peaceful when she's not here.
+go-to: wrong_sky
 
 Nothing wrong with making the best of a bad situation, especially when it lets you gaze into the stars a few nights a week.
 
-And besides, the wizard's been gone for almost six months at this point—if anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
+And besides, the wizard's been gone for almost six months at this point. If anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
 
 @bored_stargazing
 new-page: false
 on-arrival: bored += 1
 subtitle: Maybe you'd find it more interesting if you weren't being forced to do it.
+go-to: wrong_sky
+
+There's got to be more to life than this. Staring up at a night sky that doesn't stare back, surrounded by nothing but stuff that belongs to someone else, who acidly insists that you do whatever it is that she wants, whenever it is that she wants it done.
+
+Under penalty of—of...
 
 @neutral_stargazing
 new-page: false
 on-arrival: neutral += 1
 subtitle: As long as she's satisfied, and the tasks get done.
+go-to: wrong_sky
+
+This is just another of the lengthy list of tasks you're to complete before the wizard returns to her tower.
+
+It's the last task for today, but tomorrow will be potion-brewing, foraging, dissections, dusting and labelling, laundry...
+
+@wrong_sky
+new-page: true
+
+[? if bored = 0 : Hold on. ?]
+
+Something is wrong with the sky. You can't tell what just yet.
+
+- @hide_from_sky: Find somewhere to hide.
+- @examine_sky: Try to figure out what it is.
+- @prepare_wand_for_sky: Grab your wand.
+
+@hide_from_sky
+subtitle: Can't learn much if you're dead. Wait this out.
+
+@examine_sky
+subtitle: Can't become dead if you learn. Look closer.
+
+@prepare_wand_for_sky
+subtitle: Might become dead, even if you're ready. But wouldn't you rather be ready?
