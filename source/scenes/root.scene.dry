@@ -1,10 +1,11 @@
 title: Hub
 new-page: true
 max-choices: 4
-go-to: time_progression if start = 0
 
+[? if start = 0 :
 You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
 
-It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?]
+It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?] 
+?]
 
 - #start
