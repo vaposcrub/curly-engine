@@ -1,9 +1,8 @@
 title: test
-on-arrival: weeks += 1
 tags: top
 
 # changes not applying?! wtf
-Checking if weeks can change.
+Checking if weeks can change. Doesn't seem to be working...
 
 Watch is [+ watch +].
 Days is [+ days +].
