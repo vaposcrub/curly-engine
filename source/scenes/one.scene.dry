@@ -22,8 +22,6 @@ Nothing wrong with making the best of a bad situation, especially when it lets y
 
 And besides, the wizard's been gone for almost six months at this point. If anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
 
-- @wrong_sky
-
 @bored_stargazing
 new-page: false
 on-arrival: bored += 1
@@ -33,8 +31,6 @@ There's got to be more to life than this. Staring up at a night sky that doesn't
 
 Under penalty of—of...
 
-go-to: wrong_sky
-
 @neutral_stargazing
 new-page: false
 on-arrival: neutral += 1
@@ -43,8 +39,6 @@ subtitle: As long as she's satisfied, and the tasks get done.
 This is just another of the lengthy list of tasks you're to complete before the wizard returns to her tower.
 
 It's the last task for today, but tomorrow will be potion-brewing, foraging, dissections, dusting and labelling, laundry...
-
-go-to: wrong_sky
 
 @wrong_sky
 new-page: false
