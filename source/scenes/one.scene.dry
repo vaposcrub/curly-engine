@@ -1,8 +1,7 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
 new-page: true
-on-arrival: watch += 1
-tags: top
+tags: start
 go-to: @time_progression
 
 You are in the observatory floor of your wizard's tower, charting astronomical movements as instructed.
