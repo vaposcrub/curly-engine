@@ -1,6 +1,6 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: start = 1
+on-arrival: start = 1; watch += 1
 new-page: true
 tags: start
 go-to: time_progression if start != 0
