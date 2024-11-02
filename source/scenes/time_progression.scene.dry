@@ -1,6 +1,6 @@
 title: Time Progression
 on-arrival: {! 
-if Q.watch > 6 {
+if (Q['watch'] > 6) {
     Q.days += 1;
 }
 !}
