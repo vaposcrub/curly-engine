@@ -11,7 +11,7 @@ if (Q['days']) > 6 {
     Q['weeks'] += 1;
 }
 if (Q['days'] > 6) {
-Q.days = 0;
+    Q['days'] = 0;
 }
 
 if (Q['watch'] = 1 or 2) {
