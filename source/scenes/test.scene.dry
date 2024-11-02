@@ -1,9 +1,4 @@
 title: test
 tags: top
 
-# changes not applying?! wtf
-Checking if weeks can change. Doesn't seem to be working...
-
-Watch is [+ watch +].
-Days is [+ days +].
-Weeks is [+ weeks +].
+This does not have the 'start' tag. It should not appear.

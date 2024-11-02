@@ -7,7 +7,7 @@ You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
 
 It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?]
 
-- #start and #top
+- #start
 - #week0
 - #week1
 - #week2
