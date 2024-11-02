@@ -1,4 +1,9 @@
 title: test
+on-arrival: weeks += 1
 tags: top
 
-It is [+ watch +].
+Checking if weeks can change.
+
+Watch = [+ watch +].
+Days = [+ days +].
+Weeks = [+ weeks +].
