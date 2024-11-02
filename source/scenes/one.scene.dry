@@ -54,7 +54,9 @@ new-page: false
 
 [? if bored = 0 : Hold on. ?]
 
-Something is wrong with the sky. You can't tell what just yet.
+Something is wrong with the sky.
+
+You can't tell what just yet.
 
 - @hide_from_sky: Find somewhere to hide.
 - @examine_sky: Try to figure out what it is.
