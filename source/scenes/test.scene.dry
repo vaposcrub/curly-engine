@@ -5,6 +5,6 @@ tags: top
 # changes not applying?! wtf
 Checking if weeks can change.
 
-Watch = [+ watch +].
-Days = [+ days +].
-Weeks = [+ weeks +].
+Watch is [+ watch +].
+Days is [+ days +].
+Weeks is [+ weeks +].
