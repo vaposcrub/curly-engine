@@ -3,6 +3,6 @@ subtitle: A new visitor has made quite the entrance!
 on-arrival: start = 1
 new-page: true
 tags: start
-go-to: @time_progression if start != 0
+go-to: time_progression if start != 0
 
 You are in the observatory floor of your wizard's tower, charting astronomical movements as instructed.
