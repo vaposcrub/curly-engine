@@ -13,14 +13,4 @@ if Q.days > 6 {
 if Q.days > 6 {
     Q.days = 0;
 }
-
-if Q.watch = 1 or 2 {
-    Q.watch = "the morning"
-}
-if Q.watch = 3 or 4 {
-    Q.watch = "the afternoon"
-}
-if Q.watch = 5 or 6 {
-    Q.watch = "night"
-}
 !}
