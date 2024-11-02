@@ -18,7 +18,7 @@ new-page: false
 on-arrival: interested += 1
 subtitle: Nights like this are so peaceful when she's not here.
 
-Nothing wrong with making the best of a bad situation, especially when it lets you gaze into the stars a few nights a week. <newline> And besides, the wizard's been gone for almost six months at this point—if anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
+Nothing wrong with making the best of a bad situation, especially when it lets you gaze into the stars a few nights a week. // <newline> And besides, the wizard's been gone for almost six months at this point—if anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
 
 @bored_stargazing
 new-page: false
