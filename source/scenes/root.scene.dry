@@ -1,7 +1,7 @@
 title: Hub
 new-page: true
 max-choices: 4
-go-to: time_progression
+go-to: time_progression if start = 0
 
 You have known the star for [+ weeks +] week(s) and [+ days +] day(s).
 

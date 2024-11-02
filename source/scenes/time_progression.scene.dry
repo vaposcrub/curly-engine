@@ -14,3 +14,4 @@ if (Q['days'] > 6) {
     Q.days = 0;
 }
 !}
+on-departure: start = 1
