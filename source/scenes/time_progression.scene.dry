@@ -1,5 +1,4 @@
 title: Time Progression
-go-to: prevScene
 on-arrival: {!
     if Q.watch > 6 {
         Q.days += 1;
