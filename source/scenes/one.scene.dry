@@ -6,3 +6,24 @@ tags: start
 max-visits: 1
 
 You are in the observatory floor of your wizard's tower, charting astronomical movements as instructed.
+
+It's a good night for it––clear and balmy.
+
+- @interested_stargazing: You love your tasks, stargazing included.
+- @bored_stargazing: You try to imagine being more bored than you are right in this moment, and come up with absolutely nothing.
+- @neutral_stargazing: You don't feel that strongly about your tasks either way.
+
+@interested_stargazing
+new-page: false
+on-arrival: interested += 1
+subtitle: Nights like this are so peaceful when she's not here.
+
+@bored_stargazing
+new-page: false
+on-arrival: bored += 1
+subtitle: Maybe you'd find it more interesting if you weren't being forced to do it.
+
+@neutral_stargazing
+new-page: false
+on-arrival: neutral += 1
+subtitle: As long as *she's* satisfied, and the tasks get done.
