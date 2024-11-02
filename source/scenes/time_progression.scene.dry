@@ -6,7 +6,7 @@ if (Q['watch'] > 6) {
 if (Q['watch'] > 6) {
     Q.watch = 1;
 }
-!}; {!
+
 if (Q['days'] > 6) {
     Q.weeks += 1;
 }
