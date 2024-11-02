@@ -17,12 +17,11 @@ It's a good night for it—clear and balmy.
 new-page: false
 on-arrival: interested += 1
 subtitle: Nights like this are so peaceful when she's not here.
+go-to: wrong_sky
 
 Nothing wrong with making the best of a bad situation, especially when it lets you gaze into the stars a few nights a week.
 
 And besides, the wizard's been gone for almost six months at this point. If anything, it's a not-as-bad-as-it-could-be situation. Or perhaps something shorter than that...
-
-go-to: wrong_sky
 
 @bored_stargazing
 new-page: false
