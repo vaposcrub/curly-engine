@@ -5,6 +5,6 @@ max-choices: 4
 # this text isn't showing?
 You have known the start for [+ weeks +] week(s) and [+ days +] day(s).
 
-It is [? if watch = 1 || 2 : the morning. ?][? if watch = 3 || 4 : the afternoon. ?][? if watch = 5 || 6 : nighttime. ?]
+It is [? if watch = 1 || watch = 2 : the morning. ?][? if watch = 3 || watch = 4 : the afternoon. ?][? if watch = 5 || watch = 6 : nighttime. ?]
 
 - #top
