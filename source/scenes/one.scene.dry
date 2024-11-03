@@ -54,17 +54,37 @@ new-page: false
 
 [? if bored = 0 : Hold on. ?]
 
+Something magic and primal stirs at the base of your skull. Like a wave lapping against a shore, each hair on your arms stands on end, one by one, before falling flat against your skin.
+
+There's something—something like static pressing into your eyes as you look through the wizard's telescope, and for a moment your entire body flashes hot, like you've been doused in fire or something worse.
+
+You feel sick as the heat passes. Something is off. And it is very off indeed.
+
+- @starfall_reaction: And then you realise...
+
+
+@starfall_reaction
+new-page: true
+
 Something is wrong with the sky.
 
 You can't tell what just yet.
 
 - @hide_from_sky: Find somewhere to hide.
 - @examine_sky: Try to figure out what it is.
-- @prepare_wand_for_sky: Grab your wand.
+- @prepare_wand_for_sky: Grab your wand. Get downstairs.
 
 
 @hide_from_sky
 subtitle: Can't learn much if you're dead. Wait this out.
+
+It's a terrible day to die. You scan the observatory, eyes probing for somewhere you can hide yourself. A distant knowledge of the wizard's various hiding mechanisms lights up where that *thing* was stirring, and you cast your eyes to the large portrait at the head of the room.
+
+You have to pick your way past wobbly side tables, yellowing scrolls of astral charts, and hanging scrying lenses to reach it and, with a great heave, yank it open on its hinge.
+
+Inside is a recess in the wall, about as big as a narrow closet, stinking of a specific sort of damp from some old frost spell. You rush inside and slam the portrait-door shut behind you. You can hear the wizard's mocking drawl, even hidden away in here.
+
+**And to think you aspire to become a wizard. What great wizards do you recall, who crushed themselves into a hole so small as this?**
 
 
 @examine_sky
