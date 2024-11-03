@@ -50,7 +50,7 @@ It's the last task for today, but tomorrow will be potion-brewing, foraging, dis
 
 
 @wrong_sky
-new-page: false
+new-page: true
 
 [? if bored = 0 : Hold on. ?]
 
@@ -138,11 +138,16 @@ A shockwave of sweltering heat tears through the entire forest, engulfing the ob
 
 Before you can even begin to figure out what it is you wish to do, you hear a flurry of movement outside, and then the sound of whooshing air, and then the noise is joined by what you see.
 
+- @star_desc_examine: Continue...
+
+@star_desc_examine
+new-page: true
+
 A person. He looks to be around your age, glowing a bright, strong, golden light that floods the observatory and pierces your gaze for a moment. And the glare dies down, leaving behind the figure, floating right at the lens of the wizard's telescope.
 
 His bright yellow eye fills your vision as he peers into the lens, then nudges the telescope aside with a finger. It swivels away from your head, leaving you face-to-face with this stranger.
 
-"Finally!" the star says, and leans right over the window, hovering very close to your face. "I've found you!"
+"Finally!" the star says, and leans right over the open window, hovering very close to your face. "I've found you!"
 
 
 @star_crashes_wand
