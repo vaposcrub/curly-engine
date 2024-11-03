@@ -128,7 +128,6 @@ view-if: star_seen = 0
 The air becomes hot, suffocating. Your blood is like acid beneath your skin. A gasp barely cracks out of your lips.
 
 - @star_crashes_closet_examine: Go out and investigate.
-
 - @star_crashes_closet_hiding: Stay right where you are.
 
 
