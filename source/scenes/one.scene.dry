@@ -77,19 +77,54 @@ You can't tell what just yet.
 
 @hide_from_sky
 subtitle: Can't learn much if you're dead. Wait this out.
+new-page: false
 
-It's a terrible day to die. You scan the observatory, eyes probing for somewhere you can hide yourself. A distant knowledge of the wizard's various hiding mechanisms lights up where that *thing* was stirring, and you cast your eyes to the large portrait at the head of the room.
+It's a terrible day to die. You scan the observatory, eyes probing for somewhere to hide yourself. A distant knowledge of the wizard's various hiding mechanisms lights up where that *thing* was stirring, and you cast your eyes to the large portrait at the head of the room.
 
 You have to pick your way past wobbly side tables, yellowing scrolls of astral charts, and hanging scrying lenses to reach it and, with a great heave, yank it open on its hinge.
 
-Inside is a recess in the wall, about as big as a narrow closet, stinking of a specific sort of damp from some old frost spell. You rush inside and slam the portrait-door shut behind you. You can hear the wizard's mocking drawl, even hidden away in here.
+Inside is a recess in the wall, about as big as a narrow closet, stinking of a specific sort of damp from some old frost spell. You rush inside and slam the portrait-door shut behind you. You hear the wizard's mocking drawl, even hidden away in here.
 
 *And to think you aspire to become a wizard. What great wizards do you recall, who crushed themselves into a hole so small as this?*
+
+- @star_crashes_closet: The air falls apart.
 
 
 @examine_sky
 subtitle: Can't become dead if you learn. Look closer.
+new-page: false
+
+You push through this sickness and narrow your eye into the telescope's eyepiece, fiddling with the focusing knob as you monitor the sky. You almost miss it, but—
+
+There. That star. That star's too big. Far too big.
+
+You steel yourself and look closer, even as your eyes water with whatever has come over you. It's ballooning in size. Growing.
+
+No. No, shrinking. It's shrinking...
+
+- @star_crashes_examine: In distance.
 
 
 @prepare_wand_for_sky
 subtitle: Might become dead, even if you're ready. But wouldn't you rather be ready?
+new-page: false
+
+You snatch your wand from the side-table by the telescope, stumbling to your feet with it firmly gripped in your hand. Your nerves crackle like static as you careen out of the observatory, knocking over a haphazard pile of astral chart scrolls as you go.
+
+A scrying lens also shatters to the ground somewhere behind you as you thunder down the steps of the wizard's tower, but the wizard would surely forgive you that, given the circumstances.
+
+You reach the ground floor of the tower after leaping down two flights of spiral stairs before it, wand pointed at the door.
+
+- @star_crashes_wand: And the air falls apart.
+
+
+@star_crashes_closet
+new-page: true
+
+
+@star_crashes_examine
+new-page: true
+
+
+@star_crashes_wand
+new-page: true
