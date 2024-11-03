@@ -1,6 +1,6 @@
 title: The Star Arrives
 subtitle: A new visitor has made quite the entrance!
-on-arrival: start = 1
+on-arrival: start = 1; star_seen = 0
 new-page: true
 tags: start
 max-visits: 1
@@ -88,11 +88,12 @@ Inside is a recess in the wall, about as big as a narrow closet, stinking of a s
 *And to think you aspire to become a wizard. What great wizards do you recall, who crushed themselves into a hole so small as this?*
 
 - @star_crashes_closet: The air falls apart.
-
+- @star_seen_closet: You can wait this out. Right?
 
 @examine_sky
 subtitle: Can't become dead if you learn. Look closer.
 new-page: false
+on-arrival: star_seen = 1
 
 You push through this sickness and narrow your eye into the telescope's eyepiece, fiddling with the focusing knob as you monitor the sky. You almost miss it, but—
 
@@ -111,7 +112,7 @@ new-page: false
 
 You snatch your wand from the side-table by the telescope, stumbling to your feet with it firmly gripped in your hand. Your nerves crackle like static as you careen out of the observatory, knocking over a haphazard pile of astral chart scrolls as you go.
 
-A scrying lens also shatters to the ground somewhere behind you as you thunder down the steps of the wizard's tower, but the wizard would surely forgive you that, given the circumstances.
+A scrying lens also shatters to the ground somewhere behind you as you thunder down the steps of the wizard's tower. Even now, a pang of anxiety flares up, questioning whether the wizard will forgive you that when she discovers it. Perhaps you could mend it.
 
 You reach the ground floor of the tower after leaping down two flights of spiral stairs before it, wand pointed at the door.
 
@@ -120,10 +121,32 @@ You reach the ground floor of the tower after leaping down two flights of spiral
 
 @star_crashes_closet
 new-page: true
+view-if: star_seen = 0
+
+**BOOM!** Something tears apart the ground of the clearing outside the tower. A shockwave of heat sweeps through the entire forest, reaching you even behind the portrait.
+
+The air becomes hot, suffocating. Your blood is like acid beneath your skin. A gasp barely cracks out of your lips.
+
+- @star_crashes_closet_examine: Go out and investigate.
+
+- @star_crashes_closet_hiding: Stay right where you are.
 
 
 @star_crashes_examine
 new-page: true
+
+**BOOM!** Your vision whites out as the air rips apart, ears pounding with the impact of something rocking the foundations of the tower. That star just hit the tower's clearing.
+
+A shockwave of sweltering heat tears through the entire forest, engulfing the observatory with an oppressive stuffiness. Gods above.
+
+Before you can even begin to figure out what it is you wish to do, you hear a flurry of movement outside, and then the sound of whooshing air, and then the noise is joined by what you see.
+
+A person. He looks to be around your age, glowing a bright, strong, golden light that floods the observatory and pierces your gaze for a moment. And the glare dies down, leaving behind the figure, floating right at the lens of the wizard's telescope.
+
+His bright yellow eye fills your vision as he peers into the lens, then nudges the telescope aside with a finger. It swivels away from your head, leaving you face-to-face with this stranger.
+
+"Finally!" the star says, and leans right over the window, hovering very close to your face. "I've found you!"
+
 
 
 @star_crashes_wand
