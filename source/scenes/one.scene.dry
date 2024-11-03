@@ -143,7 +143,7 @@ Before you can even begin to figure out what it is you wish to do, you hear a fl
 @star_desc_examine
 new-page: true
 
-A person. He looks to be around your age, glowing a bright, strong, golden light that floods the observatory and pierces your gaze for a moment. And the glare dies down, leaving behind the figure, floating right at the lens of the wizard's telescope.
+A person. He looks to be around your age, early 20s. He glows with a bright, strong, golden light that floods the observatory and pierces your gaze for a moment. And the glare dies down, leaving behind the figure, floating right at the lens of the wizard's telescope.
 
 His bright yellow eye fills your vision as he peers into the lens, then nudges the telescope aside with a finger. It swivels away from your head, leaving you face-to-face with this stranger.
 
@@ -152,6 +152,25 @@ His bright yellow eye fills your vision as he peers into the lens, then nudges t
 
 @star_crashes_wand
 new-page: true
+
+It must only be a few seconds, but the silence feels like hours. Like days.
+
+And then the doorknob to the front door rattles for a moment. Before you can consider what it is that you wish to do, something in the lock snaps, and the door swings open inwards.
+
+Your vision whites out as the foyer is flooded with the brightest light you've ever fathomed. But as quickly as it starts, the light is gone, allowing your watery eyes to focus on the silhouette in the doorway.
+
+- @star_desc_wand: It's...
+
+@star_desc_wand
+new-page: true
+
+A person. He looks to be around your age, early 20s. He glows a bright, strong, golden light that you take a second to adjust to, and you realise that he's grinning at you. And *floating*.
+
+He glides into the house, yellow eyes bright and joyful, exclaiming "Finally!"
+
+His smiling face hovers a few inches from your own and, when he blinks, little orange motes of light spark off his lashes.
+
+- @star_intro_wand: "I've found you!"
 
 
 @star_crashes_closet_examine
