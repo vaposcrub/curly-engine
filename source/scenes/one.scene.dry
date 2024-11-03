@@ -158,3 +158,4 @@ new-page: true
 
 
 @star_seen_closet
+view-if: star_seen != 0
