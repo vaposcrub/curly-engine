@@ -88,7 +88,6 @@ Inside is a recess in the wall, about as big as a narrow closet, stinking of a s
 *And to think you aspire to become a wizard. What great wizards do you recall, who crushed themselves into a hole so small as this?*
 
 - @star_crashes_closet: The air falls apart.
-- @star_seen_closet: You can wait this out. Right?
 
 @examine_sky
 subtitle: Can't become dead if you learn. Look closer.
@@ -121,7 +120,6 @@ You reach the ground floor of the tower after leaping down two flights of spiral
 
 @star_crashes_closet
 new-page: true
-view-if: star_seen = 0
 
 **BOOM!** Something tears apart the ground of the clearing outside the tower. A shockwave of heat sweeps through the entire forest, reaching you even behind the portrait.
 
@@ -155,7 +153,3 @@ new-page: true
 
 
 @star_crashes_closet_hiding
-
-
-@star_seen_closet
-view-if: star_seen != 0
